@@ -1,4 +1,8 @@
 from util.plugins.update import search_for_updates
+from pypresence import Presence
+rpc = Presence("932685139740332102")
+rpc.connect()
+rpc.update(state="Made by serialz#2001",details="Using 333 Tool",large_image="333lg")
 from util.plugins.commun import *
 
 def main():
@@ -152,3 +156,4 @@ if __name__ == "__main__":
             proxy_scrape()
         clear()
         main()
+
